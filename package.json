@@ -1,0 +1,35 @@
+{
+  "name": "node-zip",
+  "version": "1.0.0",
+  "description": "A node cli tool for zipping, unzipping, tar, and gzip functionality",
+  "bin": {
+    "zipper": "node-zip.js"
+  },
+  "main": "node-zip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amhester/node-zip.git"
+  },
+  "keywords": [
+    "zip",
+    "unzip",
+    "gzip",
+    "tar",
+    "gz"
+  ],
+  "author": "Alex Hester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amhester/node-zip/issues"
+  },
+  "homepage": "https://github.com/amhester/node-zip#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "tar": "^2.2.1",
+    "ternary-stream": "^2.0.0",
+    "unzip": "^0.1.11"
+  }
+}
